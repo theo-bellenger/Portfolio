@@ -88,4 +88,21 @@ div.contentContainer #dotsDecoration{
   margin-left: 157.2px;
   margin-top: 50px;
 }
+div.secondSection{
+  margin-top: 20px;
+  padding-top: 10px;
+}
+div.secondSection h1{
+  color: white;
+  margin: 0;
+  font-family: 'Roboto-bold', sans-serif;
+  font-size: 42px;
+}
+div.textContainer{
+  display: flex;
+  width: 100%;
+}
+div.textContainer h1:last-child{
+  margin-left: 10px;
+}
 }
