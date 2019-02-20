@@ -1,3 +1,4 @@
+
 @media screen and (max-width:420px) {
 body{
   width: 100%;
@@ -105,5 +106,8 @@ div.textContainer{
 div.textContainer h1:last-child{
   margin-left: 10px;
 }
-
+#marginTop{
+  margin-top: 50px;
+  font-size: 44px;
+}
 }
