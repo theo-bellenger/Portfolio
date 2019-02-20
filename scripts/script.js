@@ -5,7 +5,7 @@ $(function(){
 
     $("#maDiv").click(function(){
       $(this).css('transition', '0.4s');
-      $("#arrow").css('transform','rotate(1920deg)');
+      $("#arrow").css('transform','rotate(180deg)');
       $("#arrow").css('transition','0.4s');
         if(control == true){
           $(this).css('height', '80px');
