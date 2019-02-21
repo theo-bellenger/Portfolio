@@ -1,5 +1,8 @@
 
-@media screen and (max-width:420px) {
+@media screen and (max-width:375px){
+
+}
+@media screen and (max-width:420px){
 body{
   width: 100%;
   margin: 0;
@@ -26,32 +29,31 @@ header div.nonActivated img{
   width: 35px;
   margin: auto;
 }
-div.contactContainer{
+div.contactContainer, div.footer{
   width: 100%;
   display: none;
 }
-div.contactContainer ul{
+div.contactContainer ul, div.footer ul{
   list-style: none;
   padding: 0;
   padding-left: 20px;
 }
-div.contactContainer ul li{
+div.contactContainer ul li, div.footer ul li {
   display: flex;
   height: 60px;
   width: 200px;
   color: black;
   font-family: 'Roboto-regular', sans-serif;
-
 }
-div.contactContainer ul li img{
+div.contactContainer ul li img, div.footer ul li img{
   margin: 0;
   margin-right: 20px;
   width: 30px;
 }
-div.contactContainer ul li p{
+div.contactContainer ul li p, div.footer ul li p{
   margin-top: 20px;
 }
-div.contactContainer ul li a{
+div.contactContainer ul li a, div.footer ul li a{
   text-decoration: none;
   color: black;
   margin-top: 20px;
@@ -139,5 +141,189 @@ font-size: 20px;
 }
 div.languages{
   margin-top: 50px;
+}
+div.languagesContainer{
+  margin: auto;
+  width: 125px;
+  margin-top: 50px;
+}
+div.languagesContainer h2{
+  color: white;
+  font-size: 40px;
+  font-family: 'Roboto-medium', sans-serif;
+  margin-top: 50px;
+  margin: 0;
+
+}
+div.languagesContainer h2:last-child{
+  border-top: 4px solid white;
+  margin-top: 15px;
+  padding-top:12px;
+}
+div.project{
+  margin-top: 70px;
+}
+div.project h2{
+  font-family: 'Roboto-medium', sans-serif;
+  font-size: 35px;
+  color: white;
+  margin : 0;
+}
+div.project p{
+  font-family: 'Roboto-light', sans-serif;
+  color: white;
+  margin-top: 5px;
+  font-size: 20px;
+}
+div.project ul{
+  width: 100%;
+  margin-top: 60px;
+  padding: 0;
+}
+div.project ul li h3{
+  color: white;
+  font-family: 'Roboto-medium', sans-serif;
+  font-size: 22px;
+  text-align: center;
+  margin: 15px 0;
+}
+div.disc{
+  margin: auto;
+  width: 60px;
+  height: 60px;
+  background: white;
+  border-radius: 30px;
+}
+div.project h3{
+  text-align: center;
+  font-family: 'Roboto-regular', sans-serif;
+  font-size: 30px;
+  margin-top: 20px;
+  color: white;
+  line-height: 40px;
+  margin-bottom: 10px;
+}
+div.project img{
+  width: 120px;
+  margin: auto;
+  display: block;
+  margin-bottom: 40px;
+}
+ul.photography{
+  margin : 0;
+}
+ul.photography li{
+display: flex;
+margin-left: 20px;
+}
+ul.photography li:first-child{
+  margin-top: -30px;
+}
+div.dot{
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  background: white;
+  margin-right: 10px;
+}
+ul.photography li p{
+  font-family: 'Roboto-regular', sans-serif;
+  font-size: 20px;
+  margin-top: -5px;
+}
+#noMargin{
+  margin-bottom: 0;
+}
+h1.hobbies{
+  color: white;
+  margin: 0;
+  font-family: 'Roboto-bold', sans-serif;
+  font-size: 42px;
+  margin-top : 30px;
+}
+div.hobbies{
+  width: 100%;
+  margin-top: 30px;
+}
+div.hobbies div.containerTop, div.containerBottom{
+  display: flex;
+}
+div.hobbies div.containerTop div.topLeft, div.bottomRight{
+  width: 50%;
+  background: white;
+  height: 207px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+div.hobbies div.containerTop div.topLeft h2, div.bottomRight h2{
+  display: block;
+  margin: auto;
+  color: black;
+  font-size: 30px;
+  font-family: 'Roboto-medium', sans-serif;
+  text-align: center;
+}
+div.topRight, div.bottomLeft{
+  width: 50%;
+  background: black;
+  height: 207px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+div.topRight h2, div.bottomLeft h2{
+  display: block;
+  margin: auto;
+  color: white;
+  font-size: 30px;
+  font-family: 'Roboto-medium', sans-serif;
+  text-align: center;
+}
+div.blackAndWhite{
+  width: 100%;
+  height: 110px;
+  display: flex;
+  justify-content: space-around;
+}
+div.blackAndWhite h3{
+  font-family: 'Roboto-medium', sans-serif;
+  font-size: 28px;
+  color: white;
+  margin-top: 40px;
+}
+div.blackAndWhite h3:last-child{
+  color: black;
+  display: block;
+  margin: auto;
+}
+div.blackAndWhite div.containerWhite{
+  background: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 40px;
+  width: 100px;
+  margin-top: 35px;
+}
+#footer{
+  background: white;
+  display: block
+}
+div.thanks{
+  width: 100%;
+  background: black;
+  height: 70px;
+}
+div.thanks h3{
+  font-family: 'Roboto-medium', sans-serif;
+  font-size: 28px;
+  color: white;
+  display: block;
+  margin: auto;
+  margin-top: 40px;
+  width: 260px;
 }
 }
