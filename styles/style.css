@@ -282,7 +282,7 @@ div.topRight h2, div.bottomLeft h2{
 }
 div.blackAndWhite{
   width: 100%;
-  height: 110px;
+  height: 90px;
   display: flex;
   justify-content: space-around;
 }
@@ -391,26 +391,9 @@ div.contentContainer{
   background: black;
   width: 100%;
 }
-
-
-
-
-
-
-
-
 header{
   display: none;
 }
-
-
-
-
-
-
-
-
-
 div.desktop{
   width: 960px;
   margin: auto;
@@ -570,7 +553,6 @@ ul.photography li p{
 div.rounded{
   border-radius: 200px;
   margin-top: 40px;
-
 }
 div.rounded ul{
   margin-left: 40px;
@@ -596,7 +578,6 @@ div.languagesContainer h2{
   font-family: 'Roboto-medium', sans-serif;
   margin-top: 50px;
   margin: 0;
-
 }
 div.languagesContainer h2:last-child{
   border-top: 4px solid white;
@@ -607,51 +588,6 @@ div.languagesContainer h2:last-child{
 #lessMarginTop{
   margin-top: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 h1.hobbies{
   color: white;
   margin: 0;
@@ -702,7 +638,7 @@ div.topRight h2, div.bottomLeft h2{
 }
 div.blackAndWhite{
   width: 100%;
-  height: 110px;
+  height: 90px;
   display: flex;
   justify-content: space-around;
 }
